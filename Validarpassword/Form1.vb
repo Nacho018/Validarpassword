@@ -76,7 +76,7 @@
 
                 TextBox1.Focus()
 
-
+            Exit Sub
 
 
 
@@ -87,7 +87,7 @@
                 MsgBox(" ingrese al menos dos mayusculas ")
 
                 TextBox1.Focus()
-
+            Exit Sub
 
         End If
 
@@ -97,9 +97,14 @@
 
             TextBox1.Focus()
 
+            Exit Sub
 
 
         End If
+
+
+        MsgBox(" contraseña correcta ")
+
 
 
 
